@@ -10,6 +10,16 @@
   </head>
 
   <body>
+  <nav class="navbar-inverse">
+      <h2>Menu</h2>
+      <ul>
+      <li><%= link_to "Pages One", pages_one_path%></li>
+      <li><%= link_to "Pages Two", pages_two_path%></li>
+      <li><%= link_to "Pages Three", pages_three_path%></li>
+      
+      </ul>
+   </nav>
+
     <%= yield %>
   </body>
 </html>
